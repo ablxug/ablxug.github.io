@@ -1,0 +1,1075 @@
+head:before {
+    position: fixed;
+    bottom: 3rem;
+    left: 1em
+}
+
+.Slider-control {
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem
+}
+
+.BreakableTiles-item {
+    width: 50%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem
+}
+
+.Slider.owl-carousel, .branding, .CaseStudyPerson-quote {
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem
+}
+
+.Hero-content, .Hero-caption, .FlashMessage-content, .InPageSuccess, .InPageWarning, .InPageNotice, .InPageMessage-content, .fluid-grid .Pagination, .testimonial, .investment-risks-content, .lead, .selling-point, .page-title, .new-password-form, .public .intro-text, .public .padded, .CaseStudyContainer, .careers-content, .about-page-mission-text, .people-info .person-bio .person-photo, .people-info .person-bio .person-details, .fee-table-container, .public-simple-nav-layout .social-links, .public-simple-nav-layout .footer-column, .public-simple-nav-layout .newsletter-column, .public-simple-nav-layout .footer-legal-content, .footer-for-small .social-links, .footer-for-small .footer-column, .footer-for-small .newsletter-column, .footer-for-small .footer-legal-content, .page-notices, .SecondaryNav-revealer .Revealer, .CaseStudyPerson-title, .fluid-grid .heading_with_back_link, .fluid-grid .campaigns_index .campaigns-box, .fluid-grid .recently-closed .section-title {
+    width: 100%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem
+}
+
+.CaseStudyPerson-quote {
+    margin-left: 16.66667%
+}
+
+@media (min-width: 600px) {
+    .fluid-grid .grid-container-wrapper {
+        width: 92%
+    }
+}
+
+@media (min-width: 950px) {
+    .grid-container-wrapper, .fluid-grid .grid-container-wrapper {
+        width: 90%
+    }
+    .fixed-grid .grid-container-wrapper {
+        width: 960px
+    }
+}
+
+.grid-container-wrapper {
+    width: 94%
+}
+
+body {
+    line-height: 1.5
+}
+
+h1, .h1 {
+    font-size: 32px;
+    font-size: 2rem
+}
+
+h2, .h2 {
+    font-size: 24px;
+    font-size: 1.5rem
+}
+
+.text-intro {
+    font-size: 18px;
+    font-size: 1.125rem
+}
+
+.text-quote {
+    font-size: 18px;
+    font-size: 1.125rem
+}
+
+.text-quote-author {
+    font-size: 12px;
+    font-size: 0.75rem
+}
+
+@media (min-width: 501px) {
+    .fluid-grid .show-for-small-500-only, #seedrs .fluid-grid .show-for-small-500-only {
+        display: block
+    }
+    .fluid-grid .show-for-small-500-only.is-inline, #seedrs .fluid-grid .show-for-small-500-only.is-inline {
+        display: inline
+    }
+    .fluid-grid .show-for-small-500-only.is-inline-block, #seedrs .fluid-grid .show-for-small-500-only.is-inline-block {
+        display: inline-block
+    }
+}
+
+.show-for-large-only, #seedrs .show-for-large-only, .show-for-medium-only, #seedrs .show-for-medium-only, .show-for-small-500-only, #seedrs .show-for-small-500-only {
+    display: none
+}
+
+.show-for-small-only, #seedrs .show-for-small-only {
+    display: block
+}
+
+.show-for-small-only.is-inline, #seedrs .show-for-small-only.is-inline {
+    display: inline
+}
+
+.show-for-small-only.is-inline-block, #seedrs .show-for-small-only.is-inline-block {
+    display: inline-block
+}
+
+.MainNavContainer, .MainNav-logo, .MainNav-logo *, .MainNav, .MainNav-triggers, .MainNav-triggers button {
+    height: 64px;
+    height: 4rem;
+    line-height: 64px;
+    line-height: 4rem;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0
+}
+
+.site-header a {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.site-header a:focus, .site-header a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff
+}
+
+.site-header .grid-container-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto
+}
+
+.site-header .MainNav-topLevel [href] {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.site-header .MainNav-topLevel [href]:hover, .site-header .MainNav-topLevel [href]:focus {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.site-header .MainNav-triggers button {
+    color: #4e5961
+}
+
+.site-header .MainNav-triggers button:hover, .site-header .MainNav-triggers button:focus {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.MainNavContainer {
+    display: block;
+    text-align: center;
+    position: relative
+}
+
+.MainNav-logo {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 10
+}
+
+.MainNav-logoImage {
+    left: 0.625rem;
+    right: 0.625rem
+}
+
+.MainNav-sections .MainNav-topLevel {
+    right: 100%;
+    -webkit-transition: right 0.5s;
+    transition: right 0.5s
+}
+
+:root.trident.is-showing-MainNavSections .MainNav-sections .MainNav-topLevel {
+    right: 16.66667%
+}
+
+.MainNav-user .user-info {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+}
+
+.MainNav-user .MainNav-topLevel {
+    left: 100%;
+    -webkit-transition: left 0.5s;
+    transition: left 0.5s
+}
+
+:root.trident.is-showing-MainNavUser .MainNav-user .MainNav-topLevel {
+    left: 16.66667%
+}
+
+html {
+    overflow-x: hidden
+}
+
+.MainNav-topLevel>li>a {
+    text-transform: none
+}
+
+.MainNav-topLevel:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 20px;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    outline: 1px solid transparent
+}
+
+.MainNav-user .MainNav-topLevel:before {
+    left: auto;
+    right: 100%
+}
+
+.MainNav .MainNav-sections a, .MainNav .MainNav-sections .menu-subtitle, .MainNav .MainNav-user a, .MainNav .MainNav-user .menu-subtitle {
+    padding-top: 0px;
+    padding-top: 0rem;
+    padding-bottom: 0px;
+    padding-bottom: 0rem;
+    padding-left: 24px;
+    padding-left: 1.5rem;
+    padding-right: 24px;
+    padding-right: 1.5rem;
+    display: block;
+    text-decoration: none
+}
+
+.MainNav .MainNav-sections a, .MainNav .MainNav-user a {
+    background: rgba(255, 255, 255, 0)
+}
+
+.MainNav-sections .MainNav-topLevel, .MainNav-user .MainNav-topLevel {
+    position: fixed;
+    top: 0;
+    width: 83.33333%;
+    height: 100%;
+    background: #4e5961;
+    text-align: left;
+    z-index: 10000;
+    overflow: hidden
+}
+
+.menu-subtitle {
+    padding: 8px;
+    padding: 0.5rem;
+    font-size: 12px;
+    font-size: 0.75rem;
+    height: 32px;
+    height: 2rem;
+    line-height: 32px;
+    line-height: 2rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.MainNav a {
+    height: 48px;
+    height: 3rem;
+    line-height: 48px;
+    line-height: 3rem
+}
+
+.MainNav a, .MainNav .menu-subtitle {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.MainNav .MainNav-dropdown a {
+    font-size: 14px;
+    font-size: 0.875rem
+}
+
+.MainNav-triggers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.MainNav-triggers .MainNav-openSections, .MainNav-triggers .MainNav-openUser {
+    padding-right: 6.4px;
+    padding-right: 0.4rem;
+    padding-left: 6.4px;
+    padding-left: 0.4rem;
+    font-size: 14px;
+    font-size: 0.875rem;
+    position: absolute;
+    top: 0;
+    border: none;
+    background: none;
+    outline: none;
+    min-width: 3.25rem;
+    text-align: center;
+    line-height: 1;
+    color: #222f39;
+    text-transform: uppercase
+}
+
+.MainNav-triggers .MainNav-openSections {
+    left: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.MainNav-triggers .MainNav-openSections .i-menu {
+    font-size: 24px;
+    font-size: 1.5rem
+}
+
+.MainNav-triggers .MainNav-openUser {
+    right: 0;
+    padding: 0.5rem
+}
+
+.MainNav-closeOffCanvas {
+    display: block;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    opacity: 0;
+    outline: none;
+    text-indent: -99999px;
+    direction: ltr;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s
+}
+
+.is-showing-MainNavSections .MainNav-closeOffCanvas, .is-showing-MainNavUser .MainNav-closeOffCanvas {
+    top: 0;
+    opacity: 1
+}
+
+.is-showing-MainNavSections .MainNav-sections {
+    opacity: 1
+}
+
+.is-showing-MainNavSections body {
+    -webkit-transform: translate3d(83.33333%, 0, 0);
+    transform: translate3d(83.33333%, 0, 0)
+}
+
+.is-showing-MainNavSections.no-csstransforms3d body {
+    right: -83.33333%
+}
+
+.is-showing-MainNavSections.no-csstransforms3d .MainNav-sections .MainNav-topLevel {
+    left: 0
+}
+
+body {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s
+}
+
+.no-csstransforms3d body {
+    position: relative;
+    right: 0;
+    width: 100%;
+    -webkit-transition: right 0.5s ease, left 0.5s ease;
+    transition: right 0.5s ease, left 0.5s ease
+}
+
+.is-showing-MainNavUser .MainNav-user {
+    opacity: 1
+}
+
+.is-showing-MainNavUser body {
+    -webkit-transform: translate3d(-83.33333%, 0, 0);
+    transform: translate3d(-83.33333%, 0, 0)
+}
+
+.is-showing-MainNavUser.no-csstransforms3d body {
+    right: 83.33333%
+}
+
+.is-showing-MainNavUser.no-csstransforms3d .MainNav-user .MainNav-topLevel {
+    right: 0
+}
+
+.is-lightMainNav .MainNav-triggers button {
+    color: #f3f4f5
+}
+
+.is-lightMainNav .MainNav-triggers button:focus, .is-lightMainNav .MainNav-triggers button:hover {
+    color: #f3f4f5;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.Hero {
+    background-position: top center
+}
+
+.Hero-title {
+    font-weight: 400
+}
+
+.Hero--extraLarge .Hero-title {
+    font-size: 32px;
+    font-size: 2rem
+}
+
+.Hero-content {
+    padding-top: 16px;
+    padding-top: 1rem;
+    padding-bottom: 16px;
+    padding-bottom: 1rem;
+    text-align: center
+}
+
+.is-overlayMainNav+main .Hero-content {
+    margin-top: 16px;
+    margin-top: 1rem
+}
+
+.Hero-text {
+    font-size: 18px;
+    font-size: 1.125rem
+}
+
+.Hero-content-container {
+    padding-top: 64px;
+    padding-top: 4rem;
+    padding-bottom: 64px;
+    padding-bottom: 4rem
+}
+
+.Hero-caption {
+    font-size: 12px;
+    font-size: 0.75rem;
+    padding-top: 8px;
+    padding-top: 0.5rem;
+    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
+    left: 0;
+    text-align: center;
+    max-width: none
+}
+
+.Hero-captionPhoto {
+    display: none
+}
+
+.dialog {
+    padding-top: 16px;
+    padding-top: 1rem;
+    padding-bottom: 16px;
+    padding-bottom: 1rem;
+    width: 100%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    padding-left: 10px;
+    padding-left: 0.625rem;
+    padding-right: 10px;
+    padding-right: 0.625rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto
+}
+
+.FlashMessage-content {
+    padding-right: 3rem
+}
+
+.FlashMessage-closeButton {
+    margin-right: 0.625rem
+}
+
+@media (min-width: 500px) {
+    #seedrs .CaseStudyContainer {
+        padding: 0
+    }
+}
+
+.CaseStudy-info, .CaseStudy-businessName {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem
+}
+
+.CampaignCard header {
+    margin-bottom: 64px;
+    margin-bottom: 4rem
+}
+
+.fluid-grid .Pagination {
+    text-align: center
+}
+
+.fluid-grid .Pagination a, .fluid-grid .Pagination li {
+    width: 48px;
+    width: 3rem;
+    height: 48px;
+    height: 3rem;
+    line-height: 2.8
+}
+
+.fluid-grid .Pagination-page--expanded, .fluid-grid .Pagination .Pagination-page--expanded {
+    background-color: #fff;
+    border-color: #a6acb0;
+    color: #4e5961;
+    display: inline-block;
+    width: auto;
+    min-width: 4rem;
+    padding: 0 1em
+}
+
+.fluid-grid .Pagination-page--expanded.Pagination-page {
+    display: none
+}
+
+.fluid-grid .Pagination-page--expanded.Pagination-page--current {
+    display: inline-block
+}
+
+.fluid-grid .Pagination-page--expanded.Pagination-page--current a {
+    display: none
+}
+
+@media (min-width: 500px) {
+    .fluid-grid .public-section.case-studies {
+        padding-bottom: 0
+    }
+    .fluid-grid .CaseStudyContainer {
+        width: 50%;
+        float: left;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem
+    }
+    .fluid-grid .CaseStudyContainer:nth-child(2) .CaseStudy, .fluid-grid .CaseStudyContainer:nth-child(2) .CaseStudy-cover {
+        border-right-width: 0;
+        margin-right: 0
+    }
+    .fluid-grid .CaseStudy {
+        border-width: 1px 1px 1px 0;
+        border-radius: 0
+    }
+    .fluid-grid .CaseStudy-cover {
+        margin: -1px -1px 0
+    }
+    .fluid-grid .CaseStudy-cover img {
+        border-radius: 0
+    }
+    .fluid-grid .about-press .about-press-quote {
+        min-height: 104px;
+        min-height: 6.5rem
+    }
+}
+
+@media (max-width: 350px) {
+    .fluid-grid .about-press .about-press-quote {
+        min-height: 160px;
+        min-height: 10rem
+    }
+}
+
+.public-page-hero .h1 {
+    font-size: 32px;
+    font-size: 2rem
+}
+
+.public-section {
+    padding-top: 64px;
+    padding-top: 4rem;
+    padding-bottom: 64px;
+    padding-bottom: 4rem
+}
+
+.testimonials {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: -1000% -1000%;
+    background-size: 0 0
+}
+
+.testimonial .testimonial-title {
+    text-align: center
+}
+
+.testimonial .testimonial-quote {
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-align: center;
+    display: block
+}
+
+.testimonial .testimonial-investor {
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+    max-width: 224px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.testimonial .testimonial-investor img {
+    border-radius: 50%
+}
+
+.press-item, .trusted-by-logo {
+    width: 50%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    margin-bottom: 40px;
+    margin-bottom: 2.5rem
+}
+
+.press-item:nth-child(2n+1), .trusted-by-logo:nth-child(2n+1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both
+}
+
+.press-item:nth-child(2n+2), .trusted-by-logo:nth-child(2n+2) {
+    margin-left: 50%;
+    margin-right: -100%;
+    clear: none
+}
+
+.press-items:nth-last-child(1), .press-items:nth-last-child(2), .trusted-by-logos:nth-last-child(1), .trusted-by-logos:nth-last-child(2) {
+    margin-bottom: 0
+}
+
+.lead h2 {
+    text-align: center
+}
+
+.lead .text-intro {
+    margin-bottom: 40px;
+    margin-bottom: 2.5rem
+}
+
+.selling-point {
+    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
+    padding-left: 10px;
+    padding-left: 0.625rem;
+    padding-right: 10px;
+    padding-right: 0.625rem;
+    text-align: center
+}
+
+.selling-point i {
+    left: 50%
+}
+
+.selling-point .small-icon i {
+    margin-left: -16px
+}
+
+.selling-point .big-icon i {
+    margin-left: -24px
+}
+
+.selling-point:last-child {
+    margin-bottom: 0
+}
+
+.branding {
+    margin-top: 64px;
+    margin-top: 4rem;
+    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
+    margin-left: 16.66667%
+}
+
+.public .padded {
+    padding-left: 10px;
+    padding-left: 0.625rem;
+    padding-right: 10px;
+    padding-right: 0.625rem
+}
+
+.CaseStudy {
+    border-radius: 4px
+}
+
+.CaseStudy-cover img {
+    border-radius: 4px 4px 0 0
+}
+
+.landing-page-layout .Hero-content {
+    padding-top: 128px;
+    padding-top: 8rem;
+    height: 480px
+}
+
+.public-invest-layout .list-campaigns li:last-child {
+    margin-bottom: 0
+}
+
+.public-invest-layout .public-section.case-studies {
+    margin-bottom: 64px;
+    margin-bottom: 4rem
+}
+
+.locations-list {
+    padding-top: 40px;
+    padding-top: 2.5rem
+}
+
+.locations-list li {
+    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    float: none
+}
+
+.careers-content h1 {
+    margin-bottom: 16px;
+    margin-bottom: 1rem
+}
+
+.careers-content p {
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin-bottom: 0
+}
+
+.careers-content .job-listing {
+    margin-top: 40px;
+    margin-top: 2.5rem
+}
+
+.careers-content .job-item {
+    padding-top: 8px;
+    padding-top: 0.5rem;
+    padding-bottom: 16px;
+    padding-bottom: 1rem;
+    padding-left: 10px;
+    padding-left: 0.625rem;
+    padding-right: 10px;
+    padding-right: 0.625rem
+}
+
+.careers-content .job-item-title {
+    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
+    text-align: left;
+    line-height: 1.5
+}
+
+.careers-content .job-item-location {
+    text-align: left
+}
+
+.careers-content .job-item-location:before {
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: "seedrs";
+    content: "\e60d"
+}
+
+.about-press .about-press-quote {
+    min-height: 147.2px;
+    min-height: 9.2rem
+}
+
+.about-press .overflowable-element-container {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem
+}
+
+.about-press-item {
+    width: 92%;
+    min-width: 92%
+}
+
+.about-page-mission-text {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 400
+}
+
+section.seedrs-people.public-section ul.people>li {
+    max-width: 235px;
+    width: 53%;
+    min-width: 136px
+}
+
+section.seedrs-people.public-section ul.people>li .Person {
+    min-width: 0;
+    padding: 1.25rem 0.625rem
+}
+
+section.seedrs-people.public-section ul.people>li .Person-name {
+    font-size: 14px;
+    font-size: 0.875rem
+}
+
+.people-info .person-bio .person-bio {
+    text-align: center
+}
+
+.people-info .person-bio .person-photo, .people-info .person-bio .person-details {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+.people-info .person-bio .person-photo {
+    position: static
+}
+
+.people-info .person-bio .person-details {
+    padding-top: 0
+}
+
+.people-info .person-bio .person-title {
+    font-size: 16px;
+    font-size: 1rem;
+    color: #7a8288
+}
+
+.SliderContainer .Slider-control {
+    position: fixed
+}
+
+.campaign-landing-page-single-container {
+    width: 100%;
+    float: left;
+    margin-top: 0
+}
+
+.campaign-landing-page-double-container {
+    width: 100%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem
+}
+
+.campaign-landing-page-double-container.first {
+    margin-bottom: 40px;
+    margin-bottom: 2.5rem
+}
+
+.campaign-landing-page-cta-container, .campaign-landing-page-card-container {
+    width: 100%;
+    float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem
+}
+
+.campaign-landing-page-card-container {
+    margin-top: 40px;
+    margin-top: 2.5rem
+}
+
+.campaign-landing-page-start-investing {
+    max-width: 415px;
+    max-width: 25.9375rem
+}
+
+.public-simple-nav-layout .public-page-content {
+    margin-bottom: 40px;
+    margin-bottom: 2.5rem
+}
+
+.public_raise .Hero-title, .public_how_to_invest .Hero-title {
+    max-width: none
+}
+
+.testimonial-quote {
+    margin-bottom: 0
+}
+
+.fluid-grid .public-simple-nav-layout, .fluid-grid .footer-for-small {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.fluid-grid .public-simple-nav-layout:after, .fluid-grid .footer-for-small:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+@media (min-width: 600px) {
+    .fluid-grid .public-simple-nav-layout, .fluid-grid .footer-for-small {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .fluid-grid .public-simple-nav-layout:after, .fluid-grid .footer-for-small:after {
+        content: " ";
+        display: block;
+        clear: both
+    }
+}
+
+.fixed-grid .public-simple-nav-layout, .fixed-grid .footer-for-small {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.fixed-grid .public-simple-nav-layout:after, .fixed-grid .footer-for-small:after {
+    content: " ";
+    display: block;
+    clear: both
+}
+
+.public-simple-nav-layout .social-links, .footer-for-small .social-links {
+    text-align: center
+}
+
+.public-simple-nav-layout .social-links a, .footer-for-small .social-links a {
+    margin-right: 1rem
+}
+
+.public-simple-nav-layout .Button--submittableInput, .footer-for-small .Button--submittableInput {
+    width: 100%
+}
+
+.public-simple-nav-layout .footer-legal-content img, .footer-for-small .footer-legal-content img {
+    margin-bottom: 32px;
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.site-footer {
+    padding-top: 40px;
+    padding-top: 2.5rem
+}
+
+.site-footer ul li {
+    padding-bottom: 0
+}
+
+.site-footer .disclaimer {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem
+}
+
+.SecondaryNav-revealer {
+    padding-top: 8px;
+    padding-top: 0.5rem;
+    background: #f3f4f5;
+    padding: 1rem 0
+}
+
+.SecondaryNav-revealer .Revealer {
+    padding-bottom: 0
+}
+
+.flexbox .BreakableTiles {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.BreakableTiles-item {
+    padding-top: 40px;
+    padding-top: 2.5rem;
+    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
+    float: none
+}
+
+.Statistic+.Statistic:after {
+    display: none
+}
+
+.CaseStudyPerson-title {
+    float: none
+}
+
+.CaseStudyPerson-quote {
+    float: none
+}
+
+.fluid-grid .list-campaigns>li {
+    margin-bottom: 1.25rem
+}
+
+.fluid-grid .section-title {
+    text-align: center;
+    display: block
+}
+
+.fluid-grid .heading_with_back_link {
+    max-width: 26.625rem
+}
+
+.fluid-grid .heading_with_back_link .section-title-container {
+    padding-bottom: 16px;
+    padding-bottom: 1rem;
+    display: block;
+    border-bottom: 1px solid #d2d5d7
+}
+
+.fluid-grid .campaigns-options {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.fluid-grid .campaigns-options.search-results {
+    min-height: 0;
+    bottom: 0
+}
+
+.fluid-grid .recently-closed .list-campaigns>li+li {
+    display: none
+}
+
+.fluid-grid .campaigns-tools {
+    max-width: 85%
+}
+
+.fluid-grid .search-maximized .campaigns-tools {
+    max-width: 100%
+}
+
+.fluid-grid .list-categories, .fluid-grid .list-categories+.customSelect .customSelectInner {
+    max-width: 100px
+}
+
+.fluid-grid .list-sort-by, .fluid-grid .list-sort-by+.customSelect .customSelectInner {
+    max-width: 100px
+}
+
+.fluid-grid .results-label {
+    text-align: center
+}
+
+.fluid-grid .campaigns-index-tools {
+    padding-bottom: 10px
+}
+
+html {
+    min-width: 18.125em
+}
+
+html>.development:before {
+    background: #000;
+    background: rgba(0, 0, 0, 0.2);
+    content: "S";
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.5em;
+    color: black;
+    z-index: 1
+}
