@@ -1,0 +1,47 @@
+/**Constants **/
+.testimonials {height:27em}
+.public-section {color: #7fbb30;}
+/**Nav**/
+.is-lightMainNav .MainNav-topLevel>li a {font-size: small;}
+.is-lightMainNav .MainNav-logo .MainNav-logoImage {background-image: url("img/logo.png");}
+.is-lightMainNav .MainNav-topLevel>.active a,.is-lightMainNav .MainNav-topLevel a:focus, .is-lightMainNav .MainNav-topLevel a:hover{ color:#7fbb30;}
+#menu{margin-left: 32.5%;width: 35%;}
+/***footer**/
+.site-footer {padding-top:0em;padding-bottom: 0em;}
+.social-links a {border-radius: 50px;-webkit-transition: background-color 0.3s;transition: background-color 0.3s;width: 34px;
+    text-align: center;height: 35px;margin-left: 2%;margin-top: 4%;
+}
+.social-links {margin-left: 40%;width:40%}
+.social-links i {margin-top: 0.2em;}
+.footer-legal-content {width: 100%;float: left;padding-top: 0px;border-top-width: 0px;}
+.footer-legal-content img {height: 20px;width: 63px;}
+.social-links p{display: inline;position: relative;top: 1em;font-size: 0.8em;font-weight: 700;}
+
+
+/**Home*/
+.text-list-description {text-align: justify}
+.ActivityRibbon {margin-top: -8rem;margin-bottom: 3em;}
+.selling-point > * {max-width: 100%;margin: 0 auto;}
+.what .selling-point .small-icon {margin-bottom: -3.5rem;display: inline}
+.selling-point:nth-child(3n+2) {margin-left: 35.33333%;}
+.selling-point:nth-child(3n+3) {margin-left: 69.66667%;}
+.selling-point {width: 30.33333%;}
+.selling-point a {font-size: 0.9em;float: right;}
+.home_page .Hero {background-image: url("img/home.jpg")}
+.home_page .testimonials {background-image: url("img/image_01.jpg");}
+.public-section.press {padding-top: 2rem;padding-bottom: 0px;}
+.responsive-image.responsive-lazy {opacity: 1}
+.chevron-link:after {content: none;}
+.press {background-color: #7fbb30;}
+.what .small-icon {width: 15%;float: left;margin-top: 1em;}
+.invest h3 {font-size: 1.5em;}
+/**raise**/
+.Hero { background-image: url("img/raise-large.jpg")}
+.Hero-content-container {padding-top: 10rem;padding-bottom: 9rem;}
+.testimonials {background-image: url("img/image_02.jpg");}
+.info-item .glyph-item{font-size: 11em}
+/**faqs**/
+.faqs h4,.faqs h5{color:#7fbb30}
+.faqs h4 span{font-size: 2em;padding-right: 0.5em;}
+.fee-table .fee-table-item:before {content: "-";
+}
