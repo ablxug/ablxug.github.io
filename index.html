@@ -79,11 +79,14 @@
                     <li class="MainNav-sections"  id="menu">
                         <span class="assistive">Sections</span>
                         <ul class="MainNav-topLevel">
+                            <li class="active">
+                                <a href="index.html">Home</a>
+                            </li>
                             <li>
                                 <a href="invest.html">Investors</a>
                             </li>
                             <li>
-                                <a href="raise.html">Startups</a>
+                                <a href="startup.html">Startups</a>
                             </li>
                             <li>
                                 <a href="faq.html">FAQs</a>
@@ -198,7 +201,7 @@
                             the target of 10, 000 USD could be reached and even exceeded. Each investor will receive a
                             portion of the 20% in equity in proportion to depending on how much they have committed to the Campaign.
                             </span>
-                            <br><a href="#" class="read_more">Read More &#62</a>
+                            <br><a href="#" class="read_more">Read More </a>
                         </p>
 
                     </li>
@@ -222,7 +225,7 @@
                             when a Campaign is fully funded and the capital has been raised, Investors can also contribute
                             by opening doors for greater business sales, providing strategic advice and professional services to the business. <br>For an Investor, ABLX provides an opportunity to put your financial, human and social capital towards idea, project that you believe in and gain from it at the same time. On ABLX, Entrepreneurs and their businesses are vetted prior to being listed on ABLX for fact and accuracy of all statements and assertions made in a Campaign.
                         </span>
-                            <br><a href="#">Read more &#62</a>
+                            <br><a href="#">Read more </a>
                         </p>
 
                     </li>
@@ -387,7 +390,7 @@
         <div class="grid-container">
             <article class="investment-risks-content text-smallprint">
                 <p>
-                    nvesting in startups involves risks, including loss of capital, illiquidity,
+                    Investing in startups involves risks, including loss of capital, illiquidity,
                     lack of dividends and dilution, and it should be done only as part of a diversified portfolio.
                     ABLX is targeted solely at investors who are sufficiently sophisticated to
                     understand these risks and make their own investment decisions.
@@ -474,4 +477,22 @@
 </footer>
 </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    $(function(){
+      $(".read_more").click(function (event) {
+          var $this = $(this)
+          var hidden =$this.parent().children(".hidden");
+          if(hidden.length){
+               hidden.removeClass("hidden").addClass("show");
+              $this.text("show less ")
+           }else{
+               $(this).parent().children(".show").addClass("hidden");
+              $this.text("read more ")
+           }
+          event.preventDefault()
+      });
+
+    });
+</script>
 </html>

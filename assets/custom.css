@@ -32,6 +32,7 @@
 .public-section.press {padding-top: 2rem;padding-bottom: 0px;}
 .responsive-image.responsive-lazy {opacity: 1}
 .chevron-link:after {content: none;}
+.text-list-description a:after{content: "\003e"}
 .press {background-color: #7fbb30;}
 .what .small-icon {width: 15%;float: left;margin-top: 1em;}
 .invest h3 {font-size: 1.5em;}
@@ -39,9 +40,10 @@
 .Hero { background-image: url("img/raise-large.jpg")}
 .Hero-content-container {padding-top: 10rem;padding-bottom: 9rem;}
 .testimonials {background-image: url("img/image_02.jpg");}
-.info-item .glyph-item{font-size: 11em}
+.info-item .glyph-item{font-size: 8em}
 /**faqs**/
 .faqs h4,.faqs h5{color:#7fbb30}
+.faqs h4{    padding-bottom: 1em;padding-top: 1em;}
 .faqs h4 span{font-size: 2em;padding-right: 0.5em;}
-.fee-table .fee-table-item:before {content: "-";
+.fee-table .fee-table-item:before {content: "u+232A ";
 }
